@@ -1,0 +1,101 @@
+{
+	"nodes": [
+		"Entrance",
+		"Ice Blaster",
+		"Slot Machines",
+		"Funhouse",
+		"Hotdogs",
+		"Rocket Ships",
+		"3D Cinema",
+		"Log Flume",
+		"Big Dipper",
+		"Ghost Train",
+		"Pirate Ship",
+		"Rollercoaster",
+		"Carousel",
+		"Flying Chairs"
+	],
+	"edges": [
+		{
+			"from": "Entrance",
+			"to": "Ice Blaster"
+		},
+		{
+			"from": "Entrance",
+			"to": "Slot Machines"
+		},
+		{
+			"from": "Entrance",
+			"to": "Funhouse"
+		},
+		{
+			"from": "Ice Blaster",
+			"to": "Slot Machines"
+		},
+		{
+			"from": "Ice Blaster",
+			"to": "Funhouse"
+		},
+		{
+			"from": "Ice Blaster",
+			"to": "3D Cinema"
+		},
+		{
+			"from": "Ice Blaster",
+			"to": "Rocket Ships",
+			"cost": 2
+		},
+		{
+			"from": "Slot Machines",
+			"to": "Hotdogs"
+		},
+		{
+			"from": "Slot Machines",
+			"to": "Rocket Ships",
+			"cost": 2
+		},
+		{
+			"from": "Funhouse",
+			"to": "3D Cinema"
+		},
+		{
+			"from": "3D Cinema",
+			"to": "Pirate Ship"
+		},
+		{
+			"from": "Rocket Ships",
+			"to": "Ghost Train",
+			"cost": 4
+		},
+		{
+			"from": "Hotdogs",
+			"to": "Log Flume",
+			"cost": 2
+		},
+		{
+			"from": "Log Flume",
+			"to": "Big Dipper"
+		},
+		{
+			"from": "Big Dipper",
+			"to": "Rollercoaster"
+		},
+		{
+			"from": "Big Dipper",
+			"to": "Ghost Train"
+		},
+		{
+			"from": "Ghost Train",
+			"to": "Carousel"
+		},
+		{
+			"from": "Ghost Train",
+			"to": "Flying Chairs",
+			"cost": 3
+		},
+		{
+			"from": "Carousel",
+			"to": "Flying Chairs"
+		}
+	]
+}
